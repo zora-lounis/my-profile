@@ -1,0 +1,143 @@
+/* Colors and fonts*/
+
+
+body{
+	background:#FEF5ED;
+	color:#57837B;`
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+
+
+
+}
+
+h1,h2,h3 {
+	font-family: 'Quicksand', sans-serif;
+	color:#52734D ;
+}
+
+
+h1{
+	
+	font-weight: bolder;
+	letter-spacing: 7px;
+	font-size: 32px;
+	text-transform: uppercase;
+
+	
+}
+
+h2{
+	
+	letter-spacing: 3px;
+	font-size: 22px;
+	font-weight: lighter;	
+}
+
+
+
+a{
+	text-decoration: none;
+	color: red;
+	
+}
+
+
+a:hover{
+	color: dark;
+}
+
+
+
+img {
+	width: 160px;
+	border: 3px solid white;
+}
+
+
+/*Custom design with class*/
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+
+}
+
+
+@media (max-width:  760px){
+	.container{
+		width: 600px ;
+	}
+}
+
+
+
+
+@media (max-width:  500px){
+	.container{
+		width: 400px ;
+	}
+}
+
+
+
+.box-green{
+	background-color:#D3E4CD;
+	padding: 60px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin: 20px 0px auto;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-white{
+	background-color: #ADC2A9;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.box-white: hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #99A799;
+}
+
+
+.list-inline i :hover {
+	color: black;
+}
+
+
+/* Design adjustment using id (1% of design remaining) */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#ADC2A9
+
+
+
+#678983
